@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 564
+  ClientWidth = 414
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Text1: TText
+    Align = Top
+    Size.Width = 414.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'DEMO'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = xFF616161
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 414.000000000000000000
+    Size.Height = 507.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Align = Center
+      StyledSettings = []
+      Size.Width = 279.000000000000000000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Permission Read Contacts'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF616161
+      OnClick = Button1Click
+    end
+  end
+end
