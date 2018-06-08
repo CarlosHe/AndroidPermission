@@ -1,9 +1,12 @@
 # Runtime Android Permission (unofficial patch for version 10.2.3)
   Runtime Android Permission for Firemonkey
-  
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/CarlosHe/AndroidPermission/blob/master/Screenshot_20180608-123523_Package%20installer.jpg" width="250"/>
+
 # Requirements
   
-  Android SDK latest possible
+  Android SDK latest possible.
+  
   Delphi 10.2.3 (not tested in other version, but if you want to test, backup the files)
 
 # Instalation:
