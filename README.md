@@ -20,6 +20,8 @@
   Exemple: go to Project Options -> Uses Permissions and set Read Contacts.
 
   Open "AndroidManifest.template.xml" inside the folder of your project and set android:minSdkVersion="14" and android:targetSdkVersion="26".
+  
+  Set Release mode on Build Configurations. (In Debug mode will not appear the permission box, only in Release mode)
 
 ``` xml
   <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
