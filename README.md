@@ -15,9 +15,9 @@
 
 # Usage:
 
-  In your project, go to Project Options -> Uses Permissions, set suitable permission.
+  In your project, go to Project Options -> Uses Permissions, set suitable permissions.
 
-  Exemple: go to Project Options -> Uses Permissions and set Read Contacts.
+  Example: go to Project Options -> Uses Permissions and set Read Contacts.
 
   Open "AndroidManifest.template.xml" inside the folder of your project and set android:minSdkVersion="14" and android:targetSdkVersion="26".
   
