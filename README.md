@@ -97,3 +97,33 @@ end;
 
 
 ````
+
+# Bonus:
+
+file:// scheme is now not allowed to be attached with Intent on targetSdkVersion 24 (Android Nougat). And here is the solution.
+
+It is quite easy to implement FileProvider on your application. First you need to add a FileProvider <provider> tag in AndroidManifest.xml under <application> tag like below:
+
+``` xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    ...
+    <application>
+        ...
+        <provider
+          android:name="android.support.v4.content.FileProvider"
+          android:authorities="android.support.v4.fileprovider"
+          android:exported="false"
+          android:grantUriPermissions="true">
+            <meta-data
+              android:name="android.support.FILE_PROVIDER_PATHS"
+              android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+</manifest>
+````
+Download "provider_paths.xml" file on "extra" folder and extract file and paste in your project folder.
+
+Now, go to Deployment ( Project->Deployment ) and add "provider_paths.xml" file and set "remote path" to "res\xml\"
+
+Ready! Have a good time...
+
