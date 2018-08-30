@@ -11,6 +11,8 @@
 
 # Instalation:
 
+  Download zip file: https://drive.google.com/file/d/1YqFnN6I2DwGmrpjlEbG4Wcvis4g3LFiX/view?usp=sharing
+
   Extract zip, copy "lib" and "source" folder into "Embarcadero\Studio\19.0" and replace all files.
 
 # Usage:
