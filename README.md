@@ -3,6 +3,12 @@
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/CarlosHe/AndroidPermission/blob/master/Screenshot_20180608-123523_Package%20installer.jpg" width="250"/>
 
+# Bugs
+  <b>For all bugs fixed, you must re-download and apply the patch again</b>
+  
+  - SOLVED - 2018-08-09
+     * Unit 'FMX.SpellChecker.Android' not found.
+
 # Requirements
   
   Android SDK latest possible.
