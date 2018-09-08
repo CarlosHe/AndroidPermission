@@ -6,7 +6,7 @@
 # Bugs
   <b>For all bugs fixed, you must re-download and apply the patch again</b>
   
-  - SOLVED - 2018-08-09
+  - SOLVED - 2018-09-08
      * Unit 'FMX.SpellChecker.Android' not found.
 
 # Requirements
