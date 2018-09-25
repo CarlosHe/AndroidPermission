@@ -9,6 +9,9 @@
   - SOLVED - 2018-09-08
      * Unit 'FMX.SpellChecker.Android' not found.
 
+  - SOLVED - 2018-09-24
+     * Unit 'FMX.WebBrowser.Android' not found.     
+
 # Requirements
   
   Android SDK latest possible.
@@ -17,7 +20,7 @@
 
 # Instalation:
 
-  Download zip file: https://drive.google.com/file/d/1YqFnN6I2DwGmrpjlEbG4Wcvis4g3LFiX/view?usp=sharing
+  Download zip file: https://drive.google.com/file/d/1TSHdxUb4zE894jZGos1ESo4L8ARVJ8ww/view?usp=sharing
 
   Extract zip, copy "lib" and "source" folder into "Embarcadero\Studio\19.0" and replace all files.
 
